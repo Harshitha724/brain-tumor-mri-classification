@@ -1,0 +1,8 @@
+Model,Experiment,Learning Rate,Epochs,Best Validation Accuracy (%),Final Test Accuracy (%)
+Simple CNN,Baseline,0.001,10,94.2,
+ResNet34 Frozen,Baseline,0.001,10,88.3,
+ResNet34 Frozen,Learning Rate Experiment,0.0001,10,84.82,
+ResNet34 Fine-tuned,Baseline,0.0001,10,98.57,
+ResNet34 Fine-tuned,Learning Rate Experiment,5e-05,10,99.29,94.94
+ResNet34 Fine-tuned,Learning Rate Experiment,1e-05,10,98.39,
+ResNet34 Fine-tuned,Epoch Experiment,0.0001,15,98.75,

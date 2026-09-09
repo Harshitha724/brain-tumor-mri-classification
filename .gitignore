@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset
+data/Training/
+data/Testing/
+data/*.zip
+
+# Model checkpoints
+checkpoints/*.pth
+
+# Temporary files
+*.log
+.DS_Store
